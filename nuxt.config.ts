@@ -10,6 +10,12 @@ export default defineNuxtConfig({
         lang: 'fr'
       },
       title: 'anime.js',
+      link: [
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css?family=Roboto'
+        }
+      ],
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },

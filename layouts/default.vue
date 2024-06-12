@@ -12,9 +12,18 @@
 </script>
 
 <style lang="scss">
+html {
+    height: 100%;
+}
     body {
-            margin: 0 !important;
-            padding: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        font-family: 'Roboto', serif;
+        --blue-medium: #567BDA;
+        --blue-light: #86D7F3;
+        --blue-dark: #1F2346;
+        --orange: #FEB858;
+        --beige: #FCF2E3;
     }
     .all-project {
         overflow-y: hidden;
@@ -22,12 +31,15 @@
         width: 100%;
         display: flex;
         .navbar {
-            width: 20%;
-            border: 1px solid black;
-            height: 100vh;
+            width: 11rem;
+            height: 100%;
+            position: fixed;
+
         }
         .pages {
-            width: 80%;
+            width: 82%;
+            position: absolute;
+            right: 0;
         }
     }
 </style>
